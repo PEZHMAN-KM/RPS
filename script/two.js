@@ -29,18 +29,19 @@ window.addEventListener("keydown", function (event) {
       case "a":
         player1=1;
         console.log("A");
-        return;
+        break;
       case "s":
         player1=2;
         console.log("S");
-        return;
+        break;
       case "d":
         player1=3;
         console.log("D");
-        return;
+        break;
     }
 
     console.log(`Player1: ${player1} | Player2: ${player2}`);
+    
     if (player1!=0 && player2!=0){
         if(player1==1){
             if(player2==1){
